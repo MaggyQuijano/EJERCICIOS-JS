@@ -11,4 +11,11 @@
  */
 
 
-function edad();
+function edadParaVotar (edad){
+    if (edad >= 18){
+        console.log("Esta persona tiene edad suficiente para votar")
+    } else {
+        console.log("Esta persona no tiene edad suficiente para votar  ")
+    }
+
+}
