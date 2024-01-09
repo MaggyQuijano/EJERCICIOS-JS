@@ -19,3 +19,27 @@ function edadParaVotar (edad){
     }
 
 }
+
+/** Ejercicio 2
+ * 
+ * Desarrolla un programa que permita obtener el promedio de un/a alumno/a
+ * recibiendo como parametro 4 calificaciones
+ * 
+ * Si el promedio es aprobatorio (mayor o igual a 7) imprimir aprobado
+ * en el caso de que no sea un promedio aprobatorio imprimir reporobado
+ * 
+ * Consideraciones: utilizar la estructura if-else
+ * 
+ */
+
+function calificacionAlumno (califPrimerParcial,califSegundoParcial,califTercerParcial, califCuartoParcial){
+    let promedioAlumno = (califPrimerParcial*califSegundoParcial*califTercerParcial* califCuartoParcial /4 )
+
+    if ( promedioAlumno >=7){
+        console.log("Aprobado")
+    } else{
+        console.log("Reprobado")
+    }
+}
+
+
