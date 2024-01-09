@@ -10,8 +10,13 @@ function perimetroDeCirculo( radio){
 
 // * calcular el area de un rectangulo
 
-function areaDeRectangulo (a,b){
-    return `El area de un rectangulo es: ${a * b } `;}
+function areaDeRectangulo (b,a){
+    return `El area de un rectangulo es: ${b * a }`;}
 
 // calcular el cuadrado de un numero
 
+function cuadradoDeUnNumero (a){
+
+return `El cuadrado de equis número es : ${a*a}`;}
+
+//calcular la conversion de grados celsius a farenheit
