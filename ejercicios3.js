@@ -32,14 +32,68 @@ function edadParaVotar (edad){
  * 
  */
 
-function calificacionAlumno (califPrimerParcial,califSegundoParcial,califTercerParcial, califCuartoParcial){
-    let promedioAlumno = (califPrimerParcial*califSegundoParcial*califTercerParcial* califCuartoParcial /4 )
+function calificacionAlumno (calif1,calif2,calif3, calif4){
+
+    let promedioAlumno = (calif1+calif2+calif3+calif4) /4 
 
     if ( promedioAlumno >=7){
         console.log("Aprobado")
     } else{
         console.log("Reprobado")
     }
+}
+
+/** Ejercicio 4
+ * 
+ * Desarrolla un programa que evalue si un numero es divisible
+ * entre 7 y 8
+ * 
+ * Debe recibir como parametro un numero, cual sea
+ * 
+ * Si se cumple, imprimir verdadero
+ * Si no, imprimir falso
+ * 
+ * 
+ * Consideracion - Utilizar la estructura if-else
+ * Casos de prueba: 56, 7, 8, 0, 224, 73
+ */
+
+function numeroDivisible7y8 (numero){
+    
+    if (numero % 7 === 0 && numero % 8 ===0){
+        console.log (" Verdadero")
+    } else {
+        console.log ("Falso")
+    }
+}
+
+numeroDivisible7y8 (56);
+numeroDivisible7y8 (7)
+numeroDivisible7y8 (8);
+numeroDivisible7y8 (0);
+numeroDivisible7y8 (224);
+numeroDivisible7y8(73);
+
+/** Ejercicio 5
+ * 
+ * Desarrolla un programa que evalue si un numero es divisible
+ * entre 4 o 9
+ * 
+ * Debe recibir como parametro un numero aleatorio
+ * 
+ * Si se cumple, imprimir verdadero
+ * Si no, imprimir falso
+ * 
+ * Consideracion - Utilizar la estructura if-else
+ */
+
+function numeroDivisible4y9 (numero){
+    if( numero % 4 === 0 || numero % 9 === 0){
+        console.log ( "Verdadero")
+    } else {
+        console.log("Falso")
+    }
+    
 }
 
 
